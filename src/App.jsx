@@ -1,11 +1,11 @@
-function App() {
-  import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
+import Header from "./components/header"
+
+export default function App() {
 
   return (
-    <>
-      <Button></Button>
-    </>
+    <div className="m-2 px-5">
+      <Header/>
+    </div>
   );
 }
-
-export default App;

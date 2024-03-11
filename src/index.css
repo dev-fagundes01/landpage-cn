@@ -3,10 +3,12 @@
 @tailwind utilities;
 
 @layer base {
-    :root {
-        --color-text-base: #ffff;
-        --color-text-primary: #4CAF4F;
-        --color-text-secondary: #18191F;
-        --color-text-gray: #18191F;
-    }
+  :root {
+    --border-radius: 0.25rem;
+    --padding-button: 0.625rem 1.25rem;
+    --color-brand-base: #ffff;
+    --color-brand-primary: #4caf4f;
+    --color-brand-secondary: #18191f;
+    --color-brand-gray: #18191f;
+  }
 }

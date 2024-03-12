@@ -10,5 +10,6 @@
     --color-brand-primary: #4caf4f;
     --color-brand-secondary: #18191f;
     --color-brand-gray: #18191f;
+    --box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.40);
   }
 }

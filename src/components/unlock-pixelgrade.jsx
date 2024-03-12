@@ -1,4 +1,4 @@
-import Vector from "../assets/vector.svg";
+import Vector from "../assets/general/vector.svg";
 import { Button } from "./ui/button";
 
 export default function UnlockPixelgrade() {

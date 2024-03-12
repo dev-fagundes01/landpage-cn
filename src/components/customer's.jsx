@@ -1,4 +1,11 @@
 import Image9 from "../assets/customers/image-9.svg";
+import Arrows from "../assets/general/arrows.svg";
+import Associate1 from "../assets/customers/associate1.svg";
+import Associate2 from "../assets/customers/associate2.svg";
+import Associate3 from "../assets/customers/associate3.svg";
+import Associate4 from "../assets/customers/associate4.svg";
+import Associate5 from "../assets/customers/associate5.svg";
+import Associate6 from "../assets/customers/associate6.svg";
 
 export default function Customers() {
   return (
@@ -17,12 +24,23 @@ export default function Customers() {
           neque, eget efficitur libero condimentum id. Curabitur id nibh id sem
           dignissim finibus ac sit amet magna.
         </p>
-        <h4 className="w-[748px] text-green-500 text-xl font-semibold leading-7">
+        <h4 className="w-[748px] mt-[1rem] text-green-500 text-xl font-semibold leading-7">
           Tim Smith
         </h4>
         <p className="w-[748px] text-gray-400 text-base font-normal leading-normal">
           British Dragon Boat Racing Association
         </p>
+        <div className="mt-[1.5rem] flex gap-x-[2.62rem]">
+          <img className="h-[2.5rem] w-[2.5rem]" src={Associate1} />
+          <img className="h-[2.5rem] w-[2.5rem]" src={Associate2} />
+          <img className="h-[2.5rem] w-[2.5rem]" src={Associate3} />
+          <img className="h-[2.5rem] w-[2.5rem]" src={Associate4} />
+          <img className="h-[2.5rem] w-[2.5rem]" src={Associate5} />
+          <img className="h-[2.5rem] w-[2.5rem]" src={Associate6} />
+          <a className="w-[228px] flex items-center gap-x-[]1rem text-green-500 text-xl font-semibold leading-7">
+            Meet all customers <img src={Arrows} />
+          </a>
+        </div>
       </div>
     </section>
   );

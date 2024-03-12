@@ -1,4 +1,5 @@
-import Logo from "../assets/logo.svg";
+import Logo from "../assets/general/logo.svg";
+import { Button } from "./ui/button";
 
 export default function Header() {
   return (
@@ -31,15 +32,15 @@ export default function Header() {
             FAQ
           </li>
         </ul>
-        <button type="button" className="text-skin-primary">
+        <Button type="button" className="text-skin-primary">
           Login
-        </button>
-        <button
+        </Button>
+        <Button
           type="button"
           className="bg-skin-primary text-skin-base rounded-md p-pb"
         >
           Sign up
-        </button>
+        </Button>
       </nav>
     </header>
   );

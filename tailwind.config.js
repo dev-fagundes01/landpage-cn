@@ -24,11 +24,13 @@ module.exports = {
       width: { 33: "33.875rem"},
       colors: {
         border: "hsl(var(--border))",
+        shadow: "var(--box-shadow)",
         skin: {
           base: "var(--color-brand-base)",
           primary: "var(--color-brand-primary)",
           secondary: "var(--color-brand-secondary)",
           gray: "var(--color-brand-gray)",
+          neutralSilver:'var(--neutral-silver)',
         }
       },
       borderRadius: {

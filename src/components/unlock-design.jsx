@@ -1,4 +1,5 @@
-import MobileLogin from "../assets/mobile-login.svg";
+import MobileLogin from "../assets/general/mobile-login.svg";
+import { Button } from "./ui/button";
 
 export default function UnlockDesign() {
   return (
@@ -18,9 +19,9 @@ export default function UnlockDesign() {
           quis massa. Praesent felis est, finibus et nisi ac, hendrerit
           venenatis libero. Donec consectetur faucibus ipsum id gravida.
         </p>
-        <button className="w-[151px] h-[52px] px-8 py-3.5 bg-green-500 rounded justify-center items-center gap-2.5 inline-flex text-white">
+        <Button className="w-[151px] h-[52px] px-8 py-3.5 bg-green-500 rounded justify-center items-center gap-2.5 inline-flex text-white">
           Learn More
-        </button>
+        </Button>
       </dir>
     </section>
   );

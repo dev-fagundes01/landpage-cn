@@ -1,4 +1,5 @@
-import Illustration from "../assets/illustration.svg";
+import Illustration from "../assets/general/illustration.svg";
+import { Button } from "./ui/button";
 
 export default function Main() {
   return (
@@ -11,9 +12,9 @@ export default function Main() {
         <p>
           Where to grow your business as a photographer: site or social media?
         </p>
-        <button className="bg-skin-primary text-skin-base rounded-md p-pb">
+        <Button className="bg-skin-primary text-skin-base rounded-md p-pb">
           Register
-        </button>
+        </Button>
       </div>
       <img src={Illustration} alt="imagem de ilustração" />
       <div className="flex gap-2 absolute bottom-1">

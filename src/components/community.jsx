@@ -4,7 +4,7 @@ import IconGroup from "../assets/community/icon-group.svg";
 
 export default function Community() {
   return (
-    <section className="h-96 mt-[4rem]">
+    <section className="h-96 mt-[4rem] mb-[5rem]">
       <h2 className="text-4xl not-italic font-semibold leading-10 text-center w-full px-96">
         Manage your entire community in a single system
       </h2>

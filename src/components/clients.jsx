@@ -8,7 +8,7 @@ import Client7 from "../assets/clients/client7.svg";
 
 export default function Clients() {
   return (
-    <section className="flex flex-col items-center gap-4 h-36 mt-[3.5rem]">
+    <section className="flex flex-col items-center gap-4 h-36 my-[5.5rem]">
       <h2 className="text-4xl not-italic font-semibold leading-10">
         Our Clients
       </h2>

@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export default function UnlockDesign() {
   return (
-    <section className="mt-[3rem] ml-[9rem] flex">
+    <section className="my-[5rem] ml-[9rem] flex">
       <img src={MobileLogin} />
       <dir>
         <h2 className="w-[601px] text-neutral-600 text-4xl font-semibold leading-[44px]">

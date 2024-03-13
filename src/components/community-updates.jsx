@@ -8,7 +8,7 @@ import { Button } from "./ui/button";
 
 export default function CommunityUpdates() {
   return (
-    <section className="h-[31.625rem] my-[3rem] flex flex-col items-center">
+    <section className="h-[31.625rem] my-[5rem] flex flex-col items-center">
       <h2 className="w-[1110px] text-center text-neutral-600 text-4xl font-semibold leading-[44px]">
         Caring is the new marketing
       </h2>

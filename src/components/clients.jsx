@@ -5,6 +5,7 @@ import Client4 from "../assets/clients/client4.svg";
 import Client5 from "../assets/clients/client5.svg";
 import Client6 from "../assets/clients/client6.svg";
 import Client7 from "../assets/clients/client7.svg";
+import "../../styles/app.css";
 
 export default function Clients() {
   return (

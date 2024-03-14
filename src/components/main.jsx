@@ -1,9 +1,10 @@
 import Illustration from "../assets/general/illustration.svg";
+import "../../styles/app.css";
 import { Button } from "./ui/button";
 
 export default function Main() {
   return (
-    <main className="flex justify-center items-center gap-10 mt-24 relative h-screen">
+    <main className="flex justify-center items-center gap-10 relative h-screen">
       <div className="flex flex-col items-start gap-8 flex-100 w-ful">
         <h1 className="text-6xl">
           Lessons and insights{" "}

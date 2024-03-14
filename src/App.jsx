@@ -8,7 +8,6 @@ import UnlockDesign from "./components/unlock-design";
 import Customers from "./components/customer's";
 import CommunityUpdates from "./components/community-updates";
 import Footer from "./components/footer";
-import './app.'
 
 export default function App() {
 

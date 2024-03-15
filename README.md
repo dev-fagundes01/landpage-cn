@@ -1,3 +1,3 @@
 # React + Vite
 
-Link do projeto: https://dancing-starburst-501bef.netlify.app/
+Link do projeto: https://landpage-cn.netlify.app/

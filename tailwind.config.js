@@ -12,16 +12,13 @@ module.exports = {
     container: {
       center: true,
       padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
     },
     extend: {
       flex: {
         100: "1 0 0"
       },
       height: { 35: "35rem" },
-      width: { 33: "33.875rem"},
+      width: { 33: "33.875rem" },
       colors: {
         border: "hsl(var(--border))",
         shadow: "var(--box-shadow)",
@@ -30,7 +27,7 @@ module.exports = {
           primary: "var(--color-brand-primary)",
           secondary: "var(--color-brand-secondary)",
           gray: "var(--color-brand-gray)",
-          neutralSilver:'var(--neutral-silver)',
+          neutralSilver: 'var(--neutral-silver)',
         }
       },
       borderRadius: {
@@ -52,6 +49,10 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      screens: {
+        'md': '768px',
+        "dm": {"max" : "768px"},
       },
     },
   },

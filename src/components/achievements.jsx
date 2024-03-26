@@ -5,7 +5,7 @@ import IconPayments from "../assets/achievements/icon-payments.svg";
 
 export default function Achievements() {
   return (
-    <section className="grid-cols-2 grid-rows-1 justify-center items-center md:ml-[12rem] md:py-[4rem] md:grid">
+    <section className="achievements grid-cols-2 grid-rows-1 justify-center items-center md:ml-[12rem] md:py-[4rem] md:grid">
       <h2 className="dm:text-[1.1rem] grid dm:justify-center col-start-1 row-start-1 md:mb-[5rem]">
         <span className="text-neutral-600 font-semibold md:grid md:leading-[44px] md:text-4xl">
           Helping a local

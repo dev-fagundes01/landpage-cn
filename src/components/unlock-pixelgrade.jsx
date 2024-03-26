@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export default function UnlockPixelgrade() {
   return (
-    <section className="flex flex-col-reverse items-center justify-center md:flex-row">
+    <section className="unlockPixelgrade flex flex-col-reverse items-center justify-center md:flex-row">
       <img className="h-[15rem] md:h-auto" src={Vector} />
       <div className="dm:flex flex-col items-center">
         <h2 className="w-[17rem] text-center text-neutral-600 text-[1.5rem] leading-6 font-semibold font-['Inter'] md:leading-[44px] md:text-4xl md:w-[601px]">

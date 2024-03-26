@@ -9,7 +9,7 @@ import Associate6 from "../assets/customers/associate6.svg";
 
 export default function Customers() {
   return (
-    <section className="mt-[5.06rem] flex dm:flex-col md:gap-[2.88rem] md:justify-center">
+    <section className="customers mt-[5.06rem] flex dm:flex-col md:gap-[2.88rem] md:justify-center">
       <img src={Image9} className="h-[15rem] rounded-lg shadow md:w-[326px] md:h-[326px]" />
       <div className="dm:flex dm:flex-col items-center ">
         <p className="w-[18rem] text-[0.8rem] text-neutral-500 font-medium leading-normal md:w-[748px] md:text-base">

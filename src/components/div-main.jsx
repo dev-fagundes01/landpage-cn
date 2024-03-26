@@ -1,5 +1,4 @@
 import Illustration from "../assets/general/illustration.svg";
-import "../../styles/app.css";
 import { Button } from "./ui/button";
 
 export default function Main() {

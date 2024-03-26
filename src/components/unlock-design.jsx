@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export default function UnlockDesign() {
   return (
-    <section className="my-[5rem] flex flex-col-reverse items-center md:flex-row md:justify-center">
+    <section className="unlockDesign my-[5rem] flex flex-col-reverse items-center md:flex-row md:justify-center">
       <img className="w-[18rem] md:w-auto" src={MobileLogin} />
       <div className="flex flex-col items-center">
         <h2 className="w-[20rem] text-neutral-600 text-[1.5rem] dm:text-center font-semibold md:w-[601px] md:leading-[44px] md:text-4xl">

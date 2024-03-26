@@ -9,7 +9,7 @@ import { Button } from "./ui/button";
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col  items-center">
+    <footer className="footer flex flex-col  items-center">
       <h2 className="w-[14rem] text-center text-gray-800 font-semibold md:w-[887px] md:leading-[76px] md:text-[64px]">
         Pellentesque suscipit fringilla libero eu.
       </h2>

@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import IconOrg from "../assets/community/icon-org.svg";
 import IconCiations from "../assets/community/icon-ciations.svg";
 import IconGroup from "../assets/community/icon-group.svg";
@@ -13,46 +12,47 @@ export default function Community() {
   useLayoutEffect(() => {
 
     gsap.registerPlugin(ScrollTrigger);
+    // eslint-disable-next-line no-unused-vars
     const ctx = gsap.context(() => {
       tl.current = gsap.timeline({
         scrollTrigger: {
           trigger: ".content-community",
           scrub: true,
-          start: "top 750rem",
-          end: "top 0rem"
+          start: "top 980rem",
+          end: "top 100rem"
         }
       })
       .fromTo("#h2-community", {
         opacity: 0,
-        x: -1000,
+        x: -100,
       }, {
         opacity: 1,
         x: 0
       })
       .fromTo("#p-community", {
         opacity: 0,
-        x: -1000,
+        x: -100,
       }, {
         opacity: 1,
         x: 0
       })
       .fromTo("#div-organisations", {
         opacity: 0,
-        x: -1000,
+        x: -100,
       }, {
         opacity: 1,
         x: 0
       })
       .fromTo("#div-associations", {
         opacity: 0,
-        x: -1000,
+        x: -100,
       }, {
         opacity: 1,
         x: 0
       })
       .fromTo("#div-clubs", {
         opacity: 0,
-        x: -1000,
+        x: -100,
       }, {
         opacity: 1,
         x: 0

@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import IconMembers from "../assets/achievements/icon-members.svg";
 import IconClubs from "../assets/achievements/icon-clubs.svg";
 import IconEvent from "../assets/achievements/icon-event.svg";
@@ -14,12 +13,12 @@ export default function Achievements() {
   useLayoutEffect(() => {
 
     gsap.registerPlugin(ScrollTrigger);
+    // eslint-disable-next-line no-unused-vars
     const ctx = gsap.context(() => {
       tl.current = gsap.timeline({
         scrollTrigger: {
           trigger: ".content-achievements",
           scrub: true,
-          markers: true,
           start: "top 1080rem",
           end: "top 200rem"
         }

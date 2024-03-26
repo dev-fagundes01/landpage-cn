@@ -13,9 +13,9 @@ export const Container = styled.div`
         animation: appear 4s ease-in-out;
     }
 
-    section :nth-child(2) {
-        /* opacity: 0;
-        transform: translate; */
+    .div-footer{
+        opacity: 0;
+        transform: translateX(-100vw);
     }
 
     @keyframes appear {

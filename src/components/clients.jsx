@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import Client1 from "../assets/clients/client1.svg";
 import Client2 from "../assets/clients/client2.svg";
 import Client3 from "../assets/clients/client3.svg";
@@ -17,32 +16,33 @@ export default function Clients() {
   useLayoutEffect(() => {
 
     gsap.registerPlugin(ScrollTrigger);
+    // eslint-disable-next-line no-unused-vars
     const ctx = gsap.context(() => {
       tl.current = gsap.timeline({
         scrollTrigger: {
           trigger: ".content-clients",
           scrub: true,
           start: "top 880rem",
-          end: "top 0rem"
+          end: "top 100rem"
         }
       })
       .fromTo("#h2-clients", {
         opacity: 0,
-        x: -1000,
+        x: -100,
       }, {
         opacity: 1,
         x: 0
       })
       .fromTo("#p-clients", {
         opacity: 0,
-        x: -1000,
+        x: -100,
       }, {
         opacity: 1,
         x: 0
       })
       .fromTo("#div-clients", {
         opacity: 0,
-        x: -1000,
+        x: -100,
       }, {
         opacity: 1,
         x: 0

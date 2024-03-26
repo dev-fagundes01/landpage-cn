@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import Vector from "../assets/general/vector.svg";
 import { Button } from "./ui/button";
 import { useLayoutEffect, useRef } from "react";
@@ -12,39 +11,40 @@ export default function UnlockPixelgrade() {
   useLayoutEffect(() => {
 
     gsap.registerPlugin(ScrollTrigger);
+    // eslint-disable-next-line no-unused-vars
     const ctx = gsap.context(() => {
       tl.current = gsap.timeline({
         scrollTrigger: {
           trigger: ".content-pixelgrade",
           scrub: true,
-          start: "top 880rem",
-          end: "top 0rem"
+          start: "top 1080rem",
+          end: "top 300rem"
         }
       })
       .fromTo("#img-pixelgrade", {
         opacity: 0,
-        x: -1000,
+        x: -100,
       }, {
         opacity: 1,
         x: 0
       })
       .fromTo("#h2-pixelgrade", {
         opacity: 0,
-        x: -1000,
+        x: -100,
       }, {
         opacity: 1,
         x: 0
       })
       .fromTo("#p-pixelgrade", {
         opacity: 0,
-        x: -1000,
+        x: -100,
       }, {
         opacity: 1,
         x: 0
       })
       .fromTo("#btn-pixelgrade", {
         opacity: 0,
-        x: -1000,
+        x: -50,
       }, {
         opacity: 1,
         x: 0

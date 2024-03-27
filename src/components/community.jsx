@@ -18,8 +18,8 @@ export default function Community() {
         scrollTrigger: {
           trigger: ".content-community",
           scrub: true,
-          start: "top 980rem",
-          end: "top 100rem"
+          start: "translateY 900vh",
+          end: "translateY 100vh"
         }
       })
       .fromTo("#h2-community", {

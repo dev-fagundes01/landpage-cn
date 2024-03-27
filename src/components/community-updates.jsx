@@ -22,8 +22,8 @@ export default function CommunityUpdates() {
         scrollTrigger: {
           trigger: ".content-communityUpdates",
           scrub: true,
-          start: "top 880rem",
-          end: "top 100rem"
+          start: "translateY 880vh",
+          end: "translateY 100vh"
         }
       })
       .fromTo("#h2-communityUpdates", {

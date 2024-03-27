@@ -23,9 +23,8 @@ export default function Customers() {
         scrollTrigger: {
           trigger: ".content-customers",
           scrub: true,
-          start: "top 1000rem",
-          end: "top 100rem"
-        }
+          start: "translateY 900vh",
+          end: "translateY 200vh"        }
       })
       .fromTo("#img-customers", {
         opacity: 0,

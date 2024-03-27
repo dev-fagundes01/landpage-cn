@@ -17,16 +17,9 @@ export default function UnlockDesign() {
         scrollTrigger: {
           trigger: ".content-design",
           scrub: true,
-          start: "top 1080rem",
-          end: "top 300rem"
+          start: "translateY 800vh",
+          end: "translateY 100vh"
         }
-      })
-      .fromTo("#img-design", {
-        opacity: 0,
-        x: -100,
-      }, {
-        opacity: 1,
-        x: 0
       })
       .fromTo("#h2-design", {
         opacity: 0,
@@ -58,7 +51,7 @@ export default function UnlockDesign() {
   
   return (
     <section className="my-[5rem] flex flex-col-reverse items-center md:flex-row md:justify-center" ref={el}>
-      <img className="content-design w-[18rem] md:w-auto" src={MobileLogin} id="img-design"/>
+      <img className="w-[18rem] md:w-auto" src={MobileLogin}/>
       <div className="flex flex-col dm:items-center">
         <h2 className="content-design w-[20rem] text-neutral-600 text-[1.5rem] dm:text-center font-semibold md:w-[601px] md:leading-[44px] md:text-4xl" id="h2-design">
           How to design your site footer like we did

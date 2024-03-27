@@ -14,32 +14,32 @@ export default function Footer() {
 
   useLayoutEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
-    gsap.to(".div-footer", {
+    gsap.to(".content-footer", {
       opacity: 1,
       x: 0,
       scrollTrigger: {
         trigger: ".content-footer",
         scrub: true,
         markers: true,
-        start: "top 300%",
-        end: "top 20%"
+        start: "translateY 900vh",
+        end: "translateY 250vh"
       }
     })
   
     return () => {
-      gsap.getTweensOf(".div-footer")
+      gsap.getTweensOf(".content-footer")
     };
   }, [])
 
   return (
-    <footer className="content-footer flex flex-col items-center">
+    <footer className="content-footer h-[70vh] flex flex-col items-center">
       <h2 className="w-[14rem] text-center text-gray-800 font-semibold md:w-[887px] md:leading-[76px] md:text-[64px]">
         Pellentesque suscipit fringilla libero eu.
       </h2>
       <Button className="w-auto mb-1 px-[.4rem] text-[0.75rem] bg-green-500 rounded justify-center gap-18 items-center inline-flex text-skin-base md:my-[1rem] md:gap-2">
         Get a Demo <img src={Arrows} />
       </Button>
-      <div className="div-footer w-full py-[2rem] px-[1rem] grid grid-cols-2 grid-rows-2 justify-center bg-gray-800 md:py-[4rem] md:pl-[9rem] md:flex">
+      <div className="w-full h-full py-[2rem] px-[1rem] grid grid-cols-2 grid-rows-2 justify-center bg-gray-800 md:py-[4rem] md:pl-[9rem] md:flex">
         <div className="dm:mt-2 md:mr-[7.81rem]">
           <img className="dm:w-[6rem]" src={Logo} />
           <p className="mt-[.5rem] text-slate-50 text-sm font-normal leading-tight md:mt-[1.5rem]">

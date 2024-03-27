@@ -22,8 +22,8 @@ export default function Clients() {
         scrollTrigger: {
           trigger: ".content-clients",
           scrub: true,
-          start: "top 880rem",
-          end: "top 100rem"
+          start: "translateY 700vh",
+          end: "translateY 200vh"
         }
       })
       .fromTo("#h2-clients", {

@@ -13,7 +13,7 @@ export const Container = styled.div`
         animation: appear 4s ease-in-out;
     }
 
-    .div-footer{
+    .content-footer{
         opacity: 0;
         transform: translateX(-100vw);
     }

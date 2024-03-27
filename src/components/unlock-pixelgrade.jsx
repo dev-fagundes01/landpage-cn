@@ -17,16 +17,9 @@ export default function UnlockPixelgrade() {
         scrollTrigger: {
           trigger: ".content-pixelgrade",
           scrub: true,
-          start: "top 1080rem",
-          end: "top 300rem"
+          start: "translateY 800vh",
+          end: "translateY 100vh"
         }
-      })
-      .fromTo("#img-pixelgrade", {
-        opacity: 0,
-        x: -100,
-      }, {
-        opacity: 1,
-        x: 0
       })
       .fromTo("#h2-pixelgrade", {
         opacity: 0,
@@ -58,7 +51,7 @@ export default function UnlockPixelgrade() {
   
   return (
     <section className="flex flex-col-reverse items-center justify-center md:flex-row" ref={el}>
-      <img className="content-pixelgrade h-[15rem] md:h-auto" src={Vector} id="img-pixelgrade"/>
+      <img className="h-[15rem] md:h-auto" src={Vector} />
       <div className="dm:flex flex-col items-center">
         <h2 className="content-pixelgrade w-[17rem] text-center text-neutral-600 text-[1.5rem] leading-6 font-semibold font-['Inter'] md:leading-[44px] md:text-4xl md:w-[601px]" id="h2-pixelgrade">
           The unseen of spending three years at Pixelgrade

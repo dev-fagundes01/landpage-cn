@@ -19,18 +19,18 @@ export default function Achievements() {
         scrollTrigger: {
           trigger: ".content-achievements",
           scrub: true,
-          start: "top 1080rem",
-          end: "top 200rem"
+          start: "translateY 800vh",
+          end: "translateY 100vh"
         }
       })
-      .fromTo("#h2-pixelgrade", {
+      .fromTo("#h2-achievements", {
         opacity: 0,
         x: -1000,
       }, {
         opacity: 1,
         x: 0
       })
-      .fromTo("#p-pixelgrade", {
+      .fromTo("#p-achievements", {
         opacity: 0,
         x: -1000,
       }, {

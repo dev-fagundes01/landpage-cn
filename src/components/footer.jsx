@@ -20,7 +20,6 @@ export default function Footer() {
       scrollTrigger: {
         trigger: ".content-footer",
         scrub: true,
-        markers: true,
         start: "translateY 900vh",
         end: "translateY 250vh"
       }

@@ -11,6 +11,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default function Footer() {
+
   useLayoutEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     gsap.to(".div-footer", {
@@ -19,8 +20,9 @@ export default function Footer() {
       scrollTrigger: {
         trigger: ".content-footer",
         scrub: true,
-        start: "top 700rem",
-        end: "top 300rem"
+        markers: true,
+        start: "top 300%",
+        end: "top 20%"
       }
     })
   
@@ -30,14 +32,14 @@ export default function Footer() {
   }, [])
 
   return (
-    <footer className="content-footer flex flex-col  items-center">
+    <footer className="content-footer flex flex-col items-center">
       <h2 className="w-[14rem] text-center text-gray-800 font-semibold md:w-[887px] md:leading-[76px] md:text-[64px]">
         Pellentesque suscipit fringilla libero eu.
       </h2>
       <Button className="w-auto mb-1 px-[.4rem] text-[0.75rem] bg-green-500 rounded justify-center gap-18 items-center inline-flex text-skin-base md:my-[1rem] md:gap-2">
         Get a Demo <img src={Arrows} />
       </Button>
-      <div className="div-footer w-full py-[2rem] px-[1rem] grid grid-cols-2 grid-rows-2 bg-gray-800 md:py-[4rem] md:pl-[9rem] md:flex">
+      <div className="div-footer w-full py-[2rem] px-[1rem] grid grid-cols-2 grid-rows-2 justify-center bg-gray-800 md:py-[4rem] md:pl-[9rem] md:flex">
         <div className="dm:mt-2 md:mr-[7.81rem]">
           <img className="dm:w-[6rem]" src={Logo} />
           <p className="mt-[.5rem] text-slate-50 text-sm font-normal leading-tight md:mt-[1.5rem]">

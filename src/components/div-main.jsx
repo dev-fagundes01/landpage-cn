@@ -7,7 +7,7 @@ export default function Main() {
       <div className="dm:mb-4 flex flex-col items-center gap-3 flex-100 w-ful md:items-start md:gap-8">
         <h1 className="w-[15rem] text-[1.5rem] leading-6 md:w-[41.06rem] md:text-6xl">
           Lessons and insights
-          <span className="text-skin-primary">from 8 years</span>
+          <span className="text-skin-primary"> from 8 years</span>
         </h1>
         <p className="w-[17rem] text-[1rem] leading-4 md:w-auto">
           Where to grow your business as a photographer: site or social media?
